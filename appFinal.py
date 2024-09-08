@@ -217,7 +217,7 @@ def main():
                 
             else:
                 st.error(f"You have a possible heart disease. Confidence: {prediction_proba[1] * 100:.2f}%")
-                st.write("Meanwhile, take these precautions for Pneumonia:")
+                st.write("Meanwhile, take these precautions:")
                 st.write("-Avoid smoking, vaping or using other tobacco products")
                 st.write("-Limit alcohol")
                 st.write("-Eat heart-healthy foods")
